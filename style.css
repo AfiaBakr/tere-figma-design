@@ -1,3 +1,6 @@
+
+
+/* font family Gilroy */
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -5,10 +8,10 @@
 body{
     background-color:#f9f9f9 ;
 }
-.myNavColor{
+.myColor{
     background-color: white
 }
-.myNav {
+.myheader {
     height: 124px;
     padding: 20px 0;
     ;
@@ -19,6 +22,7 @@ body{
   .myLogo img {
     width: 180px;
     height: 51;
+    object-fit: fit;
   }
   .MyFormBtn {
     display: flex;
@@ -38,42 +42,530 @@ body{
     color: white;
   }
   .mylist a{
-    width: 160px;
+    width: 180px;
     margin: 0 px;
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     
   }
 
   /* app */
   .app{
     height: auto;
-    padding: 40px 40px;
+    padding: 40px 0px;
   }
   .appCard{
-    width: 552px;
+    width: 600px;
     height: 582px;
-    
+    border: 0 solid grey;
   }
   .appCard h1{
     font-size: 60px;
     font-weight: 700;
-    margin-top: 137px;
+    margin-top: 100px;
   }
   .appCard p{
     font-size: 24px;
     font-weight: 500;
     margin-top: 20px;
   }
-  .appCard button{
-    width: 260px;
-    height: 66px;
-    font-size: 24;
-    font-weight: bold;
-    background-color: black;
-    color: white;
+  .appbtn{
+    width: 240px;
+    height: 66px;    
+    background-color: black;    
     margin-right: 10px;
     border: 0 solid black;
     border-radius: 5px;
+     font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .app-store{
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    
+  }
+  .app-store1{
+    width: 40px;
+    height: 36px;
+    margin-right: 8px;
+  }
+  .picside{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
   }
 /* apply to drive */
+.mySearch{
+  height: 150px;
+  background-color: #75BF7A;
+  padding: 50px 20px;
+  color: white;
+}
+.myForm{
+  font-size: 22px;
+}
+.applyToDrive{
+  width: 260px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  background-color: transparent;
+}
+/* tereWork */
+.tereWork{
+  width: 620px;
+  height: auto; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 100px auto;
+}
+.tereWork h3{
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tereWork p{
+  color:#9e9da2;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+/* tere work Cards */
+.tereWorkCard{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.my-tereWorkCard{
+  width: 450px;
+  height: 450px;
+  padding: 0px;
+  border: 0 solid grey;
+  background-color: transparent;
+}
+.my-tereWorkCard1{
+  width: 450px;
+  height: 450px;
+  padding: 0px;
+  border: 0 solid grey;
+  background-color: transparent;
+}
+
+.rightAlign{
+  text-align: right;
+  
+}
+
+.logoNum1{
+  text-align: right;
+}
+.logoNum1 img, .logoNum img {
+  width: 60px;
+  height: 60px; 
+  margin-bottom: 10px; 
+}
+
+
+.circle{
+  width: 400px;
+  height: 400px;
+  background-color: #75BF7A ;
+  border: 0 solid grey;
+  border-radius: 50%;
+  margin: 25px;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.dot img {
+  width: 32px;
+  height: 6px;
+}
+
+/* benefit */
+.benefit{
+  height: auto;
+  margin: 100px 0px;
+ 
+}
+.cardSection, .cardSection1{
+  width: 1060px;
+}
+.cardSection{
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.cardSection1{
+  
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.benefitCard1{
+  width: 600px;
+    height: 256px;
+    border: 0 solid grey;
+    background-color: transparent;
+    margin-top: 120px;
+}
+.benefitCard2{
+  width: 600px;
+    height: 256px;
+    border: 0 solid grey;
+    background-color: #f9f9f9;
+    margin-top: 120px;    
+}
+
+.benefitCard{
+  width: 256px;
+    height: 256px;
+    border: 0 solid grey;
+    margin-top: 120px;
+}
+
+.my-Card-text h1{
+  width: 130px;
+  height: 120px;
+  color: #75BF7A;
+  font-weight: 800;
+  font-size: 80px;
+}
+.my-Card-text h3{
+  width:250px;
+  height: 120px;
+  color: #75BF7A;
+  font-weight: 500;
+  font-size: 34px;
+  text-align: left;
+  margin: 5px 0 0 5px;
+  
+}
+.benefitCard1 p, .benefitCard p, .benefitCard2 p{
+  
+  font-size: 22px;
+  color: #9e9da2;
+  font-weight: 500;
+  text-align: left;
+}
+.benefitCard2{
+  position: relative;
+}
+.mobile{
+  z-index: -1;
+  position: absolute;
+  top: -80px;
+  right: 220px;
+}
+
+/* footer */
+.footer{
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 200px auto 100px;
+}
+.mycard{
+  width: 206px;
+  height: auto;
+  border: 0 solid grey;
+  background-color: white;
+}
+.mycard1{
+  width: 206px;
+  height: auto;
+  border: 0 solid grey;
+  background-color: white;
+}
+.mycard img {
+    width: 180px;
+    height: 51;
+    object-fit: fit;
+  }
+.appbtn1{
+    width: 240px;
+    height: 66px;    
+    background-color: black;    
+    margin-right: 10px;
+    border: 0 solid black;
+    border-radius: 5px;
+     font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+ 
+
+/* === MOBILE SCREENS (425px and below) === */
+@media only screen and (max-width: 425px) {
+  /* === Navbar === */
+  .navbar-collapse {
+    position: relative;
+    z-index: 999;
+    background-color: white;
+    padding: 15px 0;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontal center */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .navbar-toggler {
+    z-index: 1000;
+  }
+ .navbar-nav .nav-item,
+  .navbar-nav .nav-link {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+  .navbar-nav .nav-item {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #263238 !important;
+  }
+
+  .MyFormBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .myRegBtn {
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  /* === Logo === */
+  .myLogo img {
+    width: 140px;
+    height: auto;
+  }
+
+  /* === App Section === */
+  .app {
+    padding: 20px 0;
+  }
+
+  .appCard {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .appCard h1 {
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .appCard p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+  }
+.appbtn-col{
+  display: flex;
+  flex-direction: column;
+}
+  .appbtn {
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .app-store, .app-store1 {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+  }
+
+  .picside {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* === Apply to Drive Section === */
+  .mySearch {
+    flex-direction: column;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  .mySearch h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .myForm {
+    font-size: 16px;
+  }
+
+  .applyToDrive {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  /* === Tere Work === */
+  .tereWork {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+
+  .tereWork h3 {
+    font-size: 28px;
+  }
+
+  .tereWork p {
+    font-size: 16px;
+  }
+
+  .tereWorkCard, .rightAlign{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+.my-tereWorkCard1{
+  width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  .my-tereWorkCard {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    
+  }
+
+  .circle {
+   width: 90%;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+
+  .logoNum1 img, .logoNum img {
+    width: 40px;
+    height: 40px;
+  }
+.logoNum1{
+  text-align: center;
+}
+  /* === Benefit Section === */
+.cardSection {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.cardSection img{
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.cardSection1{
+  
+  margin-left: 10px;
+  margin-top: 10px;
+}
+  .cardSection, .cardSection1 {
+    width: 100%;
+    
+    align-items: center;
+    justify-items: center;
+  }
+
+  .benefitCard, .benefitCard1, .benefitCard2 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .benefitCard1 p, .benefitCard2 p, .benefitCard p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .my-Card-text h1 {
+    width: 100px;
+  height: 100px;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .my-Card-text h3 {
+    font-size: 20px;
+    width:200px;
+  height: 120px;
+    text-align: center;
+  }
+
+  .mobile {
+    width:250px;
+    height: 450px;
+    position: absolute;
+    top: -2300px;
+    z-index: 200;
+    right: 92px;
+    
+  }
+
+  /* === Footer === */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 100px 0 50px;
+    text-align: center;
+  }
+
+  .mycard, .mycard1 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .mycard img {
+    width: 140px;
+    height: auto;
+    margin-left: 120px;
+    
+  }
+
+  .appbtn1 {
+    width: 90%;
+    height: 45px;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .footer h5 {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}
