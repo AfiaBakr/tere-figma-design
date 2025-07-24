@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f9f9f9 ;
+}
+.myNavColor{
+    background-color: white
+}
+.myNav {
+    height: 124px;
+    padding: 20px 0;
+    ;
+  }
+  .myLogo {
+    font-size: 14px;
+  }
+  .myLogo img {
+    width: 180px;
+    height: 51;
+  }
+  .MyFormBtn {
+    display: flex;
+    justify-items: center;
+  }
+  .myRegBtn {
+    width: 182px;
+    height: 51px;
+    background-color: #75BF7A;
+    color: white;
+    border: 0 solid black;
+    border-radius: 5px;
+    font-size: 600;
+  font-size: 22px;
+  }
+  .myRegBtn img {
+    color: white;
+  }
+  .mylist a{
+    width: 160px;
+    margin: 0 px;
+    color: black;
+    font-size: 18px;
+    
+  }
+
+  /* app */
+  .app{
+    height: auto;
+    padding: 40px 40px;
+  }
+  .appCard{
+    width: 552px;
+    height: 582px;
+    
+  }
+  .appCard h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 137px;
+  }
+  .appCard p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .appCard button{
+    width: 260px;
+    height: 66px;
+    font-size: 24;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    border: 0 solid black;
+    border-radius: 5px;
+  }
+/* apply to drive */
