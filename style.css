@@ -184,6 +184,7 @@ body{
   border: 0 solid grey;
   border-radius: 50%;
   margin: 25px;
+  flex-wrap: wrap;
 }
 .dot {
   display: flex;
@@ -413,7 +414,7 @@ body{
 
   /* === Apply to Drive Section === */
   .mySearch {
-    height: 180px;
+    height: 200px;
     flex-direction: column;
     padding: 30px 10px;
     text-align: center;
@@ -435,7 +436,9 @@ body{
     height: 50px;
     margin-top: 10px;
   }
-
+  .mySearch-box{
+    margin-top: 10px;
+  }
   .applyToDrive {
     width: 100%;
     font-size: 18px;
@@ -476,11 +479,12 @@ body{
   }
 
   .circle {
-    width: 70%;
+    
+    width: 90%;
    /* width: 300px;
    height: 300px; */
     border-radius: 50%;
-    margin: 20px auto;
+    margin: 55px auto;
   }
 
   .logoNum1 img, .logoNum img {
@@ -537,12 +541,12 @@ body{
   }
 
   .mobile {
-    width:250px;
-    height: 450px;
+    width:230px;
+    height: 430px;
     position: absolute;
     top: -2300px;
     z-index: 200;
-    right: 82px;
+    right: 98px;
     
   }
 
