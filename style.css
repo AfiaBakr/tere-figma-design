@@ -413,10 +413,17 @@ body{
 
   /* === Apply to Drive Section === */
   .mySearch {
+    height: 180px;
     flex-direction: column;
     padding: 30px 10px;
     text-align: center;
   }
+  /* .mySearch{
+  height: 150px;
+  background-color: #75BF7A;
+  padding: 50px 20px;
+  color: white;
+} */
 
   .mySearch h3 {
     font-size: 20px;
@@ -425,6 +432,8 @@ body{
 
   .myForm {
     font-size: 16px;
+    height: 50px;
+    margin-top: 10px;
   }
 
   .applyToDrive {
@@ -467,7 +476,9 @@ body{
   }
 
   .circle {
-   width: 90%;
+    width: 70%;
+   /* width: 300px;
+   height: 300px; */
     border-radius: 50%;
     margin: 20px auto;
   }
@@ -531,7 +542,7 @@ body{
     position: absolute;
     top: -2300px;
     z-index: 200;
-    right: 92px;
+    right: 82px;
     
   }
 
