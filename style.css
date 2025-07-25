@@ -441,7 +441,7 @@ body{
   }
   .applyToDrive {
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 10px;
   }
 
@@ -546,7 +546,7 @@ body{
     position: absolute;
     top: -2300px;
     z-index: 200;
-    right: 98px;
+    right: 92px;
     
   }
 
